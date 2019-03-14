@@ -103,8 +103,35 @@ div{
   top: -185px;
   border-radius: 50px;
   z-index: 2;
+  animation: pupiles;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: 5;
+  animation-direction: normal;
 }
-
+@keyframes pupiles{
+0%{
+top: -185px;
+left: 0px;
+}
+25%{
+top: -185px;
+left: 10px;
+}
+50%{
+top: -185px;
+left: 20px;
+}
+75%{
+top: -185px;
+left: 10px;
+}
+100%{
+top: -185px;
+left: 0px;
+}
+}
 .orelles {
   position: relative;
   width: 600px;
