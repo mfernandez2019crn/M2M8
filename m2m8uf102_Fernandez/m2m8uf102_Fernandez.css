@@ -62,9 +62,30 @@ body{
  animation-delay: 1s;
  animation-iteration-count: 1000;
  animation-direction: normal;
+  }
+ @keyframes nuvol{
+ 0%{
+ top:    -250px;
+ left:   50px;
  }
+ 25%{
+ top:    -250px;
+ left:    0px;
+ }
+ 50%{
+ top:     -250px;
+ left:    -20px;
+ }
+ 75%{
+ top:     -250px;
+ left:    -50px;
 
-
+ }
+ 100%{
+ top:    -250px;
+ left:   -100px;
+ }
+}
  .cercle1{
    height: 130px;
    width: 130px;
@@ -99,29 +120,6 @@ body{
    border-radius: 80px;
  }
 
- @keyframes nuvol{
- 0%{
- top:   -250px;
- left:   100px;
- }
- 25%{
- top:   -250px;
- left:   200px;
- }
- 50%{
- top:    -250px;
- left:    300px;
- }
- 75%{
- top:    -250px;
- left:    400px;
-
- }
- 100%{
- top:   -250px;
- left:   500px;
- }
-}
 .nuvol2{
  margin-top: -150px;
  left: 1300px;
@@ -136,28 +134,42 @@ body{
  }
  @keyframes nuvol2{
  0%{
- top:    -200px;
+ top:    250px;
  left:   1300px;
  }
  25%{
- top:    -200px;
+ top:    250px;
  left:   1200px;
  }
  50%{
- top:     -200px;
+ top:     250px;
  left:    1100px;
  }
  75%{
- top:     -200px;
+ top:     250px;
  left:    1000px;
  }
  100%{
- top:   -200px;
+ top:    250px;
  left:   900px;
  }
  }
 
-
+#flor1{
+  position: relative;
+  left: 100px;
+  top: -250px;
+}
+#flor2{
+  position: relative;
+  left: 480px;
+  top: -350px;
+}
+#flor3{
+  position: relative;
+  left: 530px;
+  top: -350px;
+}
 .triangulo1{
   height: 0px;
   width:  0px;
@@ -198,65 +210,118 @@ body{
   margin-top: -400px;
   margin-left: 1300px;
   }
-  
-#flores{
+
+.petal1{
   height: 100px;
   width: 100px;
   border-radius: 0px 100px 0px 100px;
   background-color: yellow;
+  margin-top: -500px;
 }
 
-.flor{
+.petal2{
   transform: rotate(60deg);
+  height: 100px;
+  width: 100px;
+  border-radius: 0px 100px 0px 100px;
+  background-color: yellow;
+  left:  66px;
+  top:  -17px;
+  position: relative;
 }
 
-.petal1{
+.petal3{
+  transform: rotate(120deg);
+  height: 100px;
+  width: 100px;
+  border-radius: 0px 100px 0px 100px;
+  background-color: yellow;
+  margin-left: 110px;
+  top: -70px;
+  position: relative;
+}
+
+.petal4{
   transform: rotate(180deg);
+  height: 100px;
+  width: 100px;
+  border-radius: 0px 100px 0px 100px;
+  background-color: yellow;
+  position: relative;
+  top: -120px;
+  left: 90px;
 }
 
-.petal2 {
+.petal5{
   transform: rotate(240deg);
+  height: 100px;
+  width: 100px;
+  border-radius: 0px 100px 0px 100px;
+  background-color: yellow;
+  position: relative;
+  top: -200px;
+  left: 35px;
 }
 
-.petal3 {
+.petal6{
   transform: rotate(300deg);
+  height: 100px;
+  width: 100px;
+  border-radius: 0px 100px 0px 100px;
+  background-color: yellow;
+  position: relative;
+  top: -340px;
 }
-
-.petal4 {
-  transform: rotate(360deg);
+.cerclenegre{
+background-color: black;
+border-radius: 100px;
+width: 50px;
+height: 50px;
+position: relative;
+z-index: 10;
+left: 80px;
+top: -80px;
 }
-
+.tronc{
+  background-color: green;
+  width: 30px;
+  height: 300px;
+  position: relative;
+  top: -120px;
+  left: 90px;
+}
 .formiga{
-margin-left: -400px;
-margin-top: -110px;
 animation-name: formiga;
 animation-duration: 15s;
 animation-timing-function: linear;
 animation-delay: 1s;
 animation-iteration-count: 1000;
 animation-direction: normal;
+position: relative;
+top: -230px;
+left: -1500px;
 }
 @keyframes formiga{
 0%{
-top:   0px;
-left:  50px;
+top:   -230px;
+left:  -1500px;
 }
 25%{
-top:     0px;
-left:  100px;
+top:   -230px;
+left:  -1200px;
 }
 50%{
-top:     0px;
-left:  150px;
+top:   -230px;
+left:  -1000px;
 }
 75%{
-top:     0px;
-left:  200px;
+top:   -230px;
+left:  -800px;
 
 }
 100%{
-top:    0px;
-left: 300px;
+top:  -230px;
+left: -500px;
 }
 }
 .antena1{
