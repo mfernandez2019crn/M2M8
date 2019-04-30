@@ -1,0 +1,38 @@
+body{
+  background-color: #DAD;
+}
+form{
+  width: 400px;
+  margin: 0 auto;
+}
+div{
+  background-color: #F5F5DC;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+label{
+  display: block;
+  text-transform: capitalize;
+}
+input{
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  display: block;
+  }
+form #genere{
+  display: inline-block;
+}
+.alinea{
+  display: inline-block;
+  width: 15%;
+  margin: 0;
+  padding: 0;
+  background-color: red;
+}
+#envia{
+  background-color: #969;
+  box-shadow: 3px 3px 10px #333;
+}

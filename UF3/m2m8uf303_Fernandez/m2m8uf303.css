@@ -1,0 +1,272 @@
+body{
+
+  color:  #666;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Helvetica Neue", sans-serif;
+}
+h1,h2{
+  width: 400px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1{
+  font-size: 2em;
+  line-height: 1em;
+}
+p{
+
+    width: 400px;
+}
+ul{
+
+    width: 400px;
+}
+li{
+  list-style-type: none;
+}
+div{
+
+  padding-left: 50px;
+  overflow: hidden;
+
+}
+
+#primer{
+  background-color: #FFF;
+}
+#primer img{
+  padding-top: 15px
+}
+#menu{
+  margin: 0;
+  width: 93%;
+  padding: 0;
+  text-align: right;
+  display: inline-block;
+}
+#menu li{
+  display: inline;
+  margin: 0 10px;
+}
+#segon{
+  background-color: #333;
+}
+#segon h1{
+
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+#segon div{
+padding-left: 5%;
+  width: 30%;
+  display: inline-block;
+    vertical-align: middle;
+}
+#segon ul{
+  padding-left: 10%;
+  width: 20%;
+  display: inline-block;
+    vertical-align: middle;
+}
+
+#tercer{
+  background-image: url("img/01_coneix.png");
+  background-repeat: no-repeat;
+  background-position: 400px;
+  height: 550px;
+  background-color: #6C3;
+}
+#quart{
+  background-image: url("img/02_lloc.png");
+  background-repeat: no-repeat;
+  background-position: 500px;
+  height: 641px;
+  background-color: #FFF;
+}
+#cinque{
+  background-image: url("img/03_util.png");
+  background-repeat: no-repeat;
+  background-position: 400px;
+  height: 500px;
+  background-color: #333;
+}
+#sise{
+  background-image: url("img/01_coneix.png");
+  background-repeat: no-repeat;
+  background-position: 500px;
+  height: 550px;
+  background-color: #EEECEE;
+}
+#sete{
+  background-image: url("img/05_rapid.png");
+  background-repeat: no-repeat;
+  background-position: 500px 20px;
+  height: 550px;
+  background-color: #6C3;
+}
+
+#vuite{
+    background-image: url("img/06_facil.png");
+    background-repeat: no-repeat;
+    background-position: 500px;
+    height: 643px;
+    background-color: #fff;
+  }
+#nove{
+  background-color: #333;
+  text-align: center;
+  padding: 50px;
+}
+
+#nove img{
+  margin: 50px 25px;
+}
+.txtverd{
+  color: #6C3;
+}
+.txtclar{
+  color: #CCC;
+}
+.inici{
+text-align: right;
+width: 100%;
+font-size: 72px;
+font-weight: 900px;
+margin-top: 36px;
+margin: 0px;
+padding: 0px;
+padding-top: 36px;
+}
+a{
+  text-decoration: none;
+}
+a:link{
+  color: #CCC;
+}
+a:visited{
+color: #CCC;
+}
+a:hover{
+color: #666;
+text-decoration: underline;
+}
+a:active{
+color: #6C3;
+}
+.fonsgris{
+  background-color: #EEECEE;
+  margin: 0;
+  padding: 0;
+}
+.fonsclar{
+  background-color: #DDD;
+  margin: 0;
+  padding: 0;
+}
+
+.centrat{
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+}
+.centrat img{
+width: 100%;
+height: auto;
+}
+.centrat p{
+  width: 100%;
+}
+.centrat h1{
+  width: 100%;
+  margin-bottom: 1em;
+}
+.centrat h2{
+  width: 100%;
+  margin-top: 1.2em;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 200;
+
+}
+.centrat h3{
+  width: 100%;
+  font-size: 1.8em;
+  line-height: 1.2em;
+  font-weight: 300;
+}
+.caixa{
+  width: 31%;
+    height: 200px;
+  margin: 1%;
+  float: left;
+  padding: 0;
+}
+.fa{
+  color: #6C3;
+  font-size: 3em;
+}
+#esq{
+  width: 22%;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+#enlace{
+  width: 100%;
+  background-color: #6C3;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+.kern{
+  letter-spacing: -0.1em;
+}
+#img{
+  weight:500px;
+  height: 500px;
+}
+#telefon{
+  background-image: url(img/frame-iphone5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 571px;
+  background-color: #DDD;
+  }
+#colorosa{
+  background-color: pink;
+  width: 240px;
+  margin: -0.5 auto;
+  padding: 30 30 30 30
+
+}
+#google{
+  width: 70px;
+  text-align: center;
+  padding: 3
+  background-color: #FF751A;
+  border-radius: 15px;
+  padding: 0.50px;
+  margin: 5;
+
+}
+#facebook{
+  background-color: #0040FF;
+  border-radius: 15px;
+  padding: 0.5px;
+  margin: 5;
+}
+#registrat{
+  background-color: #00e600;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+.br{
+  height: 2px;
+  width: 2px;
+}

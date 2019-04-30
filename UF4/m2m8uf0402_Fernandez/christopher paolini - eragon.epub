@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+  #dit1{
+    margin-top: -600px;
+    width: 50px;
+    height: 120px;
+    background: gold;
+    top: 600px;
+    left: 200px;
+    border-radius: 20px;
+    border:white solid 10px;
+    position: relative;
+  }
+  #dit2{
+    width: 50px;
+    height: 120px;
+    background: gold;
+    top: 460px;
+    left: 260px;
+    border-radius: 20px;
+    border:white solid 10px;
+    white solid 10px;
+    position: relative;
+  }
+  #dit3{
+    width: 50px;
+    height: 120px;
+    background: gold;
+    top: 320px;
+    left: 320px;
+    border-radius: 20px;
+    border:white solid 10px;
+    position: relative;
+    white solid 10px;
+  }
+  #dit4{
+    width: 50px;
+    height: 120px;
+    background: gold;
+    top: 180px;
+    left: 380px;
+    border-radius: 20px;
+    border:white solid 10px;
+    position: relative;
+  }
+  #dit5{
+    width: 120px;
+    height: 50px;
+    background: gold;
+    left: 310px;
+    top: 170px;
+    border-radius: 20px;
+    border:white solid 10px;
+    position: relative;
+    white solid 10px;
+    position: relative;
+    z-index: 10;
+  }
+  #palmell{
+    width: 230px;
+    height: 100px;
+    background: gold;
+    top: 100px;
+    left: 200px;
+    border-radius: 10px 10px 20px 20px;
+    border:white solid 10px;
+    position: relative;
+    white solid 10px;
+    position: relative;
+    z-index: 9;
+  }
+
+  #canell{
+    width: 150px;
+    height: 280px;
+    background: gold;
+    top: 90px;
+    left: 240px;
+    border-radius: 10px 10px 20px 20px;
+    border:white solid 10px;
+    position: relative;
+    white solid 10px;
+    position: relative;
+    z-index: 9;
+  }
+  </style>
+</head>
+<body>
+  <div id="dit1">
+  </div>
+  <div id="dit2">
+  </div>
+  <div id="dit3">
+  </div>
+  <div id="dit4">
+  </div>
+  <div id="dit5">
+  </div>
+  <div id="palmell">
+  </div>
+  <div id="canell">
+  </div>
+</body>
+</html>

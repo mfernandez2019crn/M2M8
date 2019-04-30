@@ -1,0 +1,72 @@
+#page1.gwd-play-animation .gwd-motion-path-1wp7-anim-x {
+  --gwd-motion-path: {
+    "tangentFollowing": false, "sections": [ {
+      "controlPoints": ["-86.57px", "422.1px", "-85.89px", "422.09px", "-85.21px", "422.08px", "-84.53px", "422.08px"], "startTimeMs": 0, "endTimeMs": 500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-84.53px", "422.08px", "-71.36px", "419.72px", "-58.18px", "417.36px", "-45px", "415px"], "startTimeMs": 500, "endTimeMs": 999.999, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-45px", "415px", "-31.33px", "319.67px", "-17.67px", "224.33px", "-4px", "129px"], "startTimeMs": 999.999, "endTimeMs": 2000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-4px", "129px", "-15.34px", "229.12px", "-77.19px", "337.83px", "-30px", "428px"], "startTimeMs": 2000, "endTimeMs": 2500, "easing": "linear"
+    }
+    ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
+  }
+  ;
+  animation:gwd-motion-path-1wp7-keys-x 2.5s linear 0s infinite normal forwards running;
+  transform:translate3d(-86.57px, 0px, 0px);
+}
+@keyframes gwd-motion-path-1wp7-keys-x {
+  0% {
+    transform: translate3d(-86.57px, 0px, 0px);
+  }
+  20% {
+    transform: translate3d(-84.53px, 0px, 0px);
+  }
+  40% {
+    transform: translate3d(-45px, 0px, 0px);
+  }
+  80% {
+    transform: translate3d(-4px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3129, 0.3679, 0.6923, 2.8161);
+  }
+  100% {
+    transform: translate3d(-30px, 0px, 0px);
+  }
+}
+#page1.gwd-play-animation .gwd-motion-path-1wp7-anim-y {
+  animation: gwd-motion-path-1wp7-keys-y 2.5s linear 0s infinite normal forwards running;
+  transform: translate3d(0px, 422.1px, 0px);
+}
+@keyframes gwd-motion-path-1wp7-keys-y {
+  0% {
+    transform: translate3d(0px, 422.1px, 0px);
+  }
+  20% {
+    transform: translate3d(0px, 422.08px, 0px);
+  }
+  40% {
+    transform: translate3d(0px, 415px, 0px);
+  }
+  80% {
+    transform: translate3d(0px, 129px, 0px);
+    animation-timing-function: cubic-bezier(0.3331, 0.3338, 0.6699, 0.6636);
+  }
+  98% {
+    transform: translate3d(0px, 399.57px, 0px);
+  }
+  100% {
+    transform: translate3d(0px, 428px, 0px);
+  }
+}
+[data-gwd-motion-path-node] {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}

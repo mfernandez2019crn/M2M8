@@ -1,0 +1,57 @@
+body{
+ background-color: pink;
+}
+li{
+ display: inline;
+
+}
+ul{
+ text-align: right;
+}
+p{
+ color: red;
+}
+.ex1{
+ display: none;
+}
+.ex2{
+ display: inline;
+ border: solid 5px black;
+ height: 300px;
+}
+.ex3{
+ display: block;
+}
+.ex4{
+ display: inline-block;
+ border: solid 5px black;
+ height: 300px;
+}
+#girasol{
+ float: left;
+ height: 500px;
+ width: 500px;
+}
+h1{
+ padding-left: 650px;
+}
+h2{
+ padding-left: 650px;
+}
+div{
+ padding: 650px;
+}
+#boto{
+ background-color: white;
+ color: blue;
+ height: 100px;
+ width: 100px;
+ font-size: 10px;
+ display: block;
+ text-align: center;
+ border-radius: 80px;
+ padding-top: 12px;
+ position: fixed;
+ bottom: 20px;
+ right: 20px;
+}

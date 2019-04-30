@@ -1,0 +1,27 @@
+#imatge{
+  width: 100%;
+}
+#fotoescriptor{
+  width: 20%;
+  border-radius: 100px;
+  float: left;
+  position: relative;
+  left: 50px;
+  top: 10px;
+}
+#fons{
+  background-color: rgb(88, 218, 150);
+}
+#principal{
+  background-color: rgb(255, 255, 151);
+  text-align: center;
+  float: left;
+  width: 320px;
+  height: 750px;
+  margin: 10px;
+}
+#nom{
+  position: relative;
+  margin-top: 10px;
+  margin-left:
+}
