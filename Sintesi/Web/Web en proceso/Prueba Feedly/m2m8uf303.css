@@ -1,0 +1,157 @@
+body{
+color: #666;
+margin: 0;
+padding: 0;
+font-size: 18px;
+line-height: 22px;
+font-family: "Helvetica Neue", Arial, sans-serif;
+background-color: red;
+}
+h1,h2{
+  width: 400px;
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+}
+h1{
+  font-size: 2.5em;
+  line-height: 1em;
+}
+h2{
+  font-size: 2em;
+  line-height: 1em;
+}
+p{
+  width: 400px;
+}
+ul{
+  width: 400px;
+}
+li{
+  list-style-type: none;
+}
+div{
+  padding-left:50px;
+  overflow: hidden;
+}
+#primero{
+  background-color: #FFF;
+}
+#primero img{
+  padding-top: 15px;
+}
+#menu{
+  margin: 0;
+  padding: 0;
+  width: 93%;
+  text-align: right;
+  display: inline-block;
+}
+#menu li{
+  display: inline;
+  margin: 0 5px;
+}
+#segundo{
+  background-color: #333;
+}
+#segundo h1{
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+#segundo div{
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5%;
+}
+#segundo ul{
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10%;
+}
+#tercero{
+  background-image: url("img/01_coneix.png");
+  background-repeat: no-repeat;
+  background-position: 500px;
+  height: 550px;
+  background-color: #6C3;
+}
+#cuarto{
+  background-image: url("img/02_lloc.png");
+  background-repeat: no-repeat;
+  background-position: 500px;
+  height: 641px;
+  background-color: #FFF;
+}
+#quinto{
+  background-image: url("img/03_util.png");
+  background-repeat: no-repeat;
+  background-position: 500px;
+  height: 500px;
+  background-color: #333;
+}
+#sexto{
+  background-image: url("img/01_coneix.png");
+  background-repeat: no-repeat;
+  background-position: 500px;
+  height: 550px;
+  background-color: #EEECEE;
+}
+#septimo{
+  background-image: url("img/05_rapid.png");
+  background-repeat: no-repeat;
+  background-position: 500px 15px;
+  height: 550px;
+  background-color: #6C3;
+}
+#octavo{
+  background-image: url("img/06_facil.png");
+  background-repeat: no-repeat;
+  background-position: 500px;
+  height: 643px;
+  background-color: #FFF;
+}
+#noveno{
+  text-align: center;
+  padding: 0px;
+  height: 150px;
+  background-color: #333;
+}
+#noveno img{
+  margin: 50px 25px;
+}
+.txtverde{
+  color: #6C3;
+}
+.txtclaro{
+  color: #CCC;
+}
+.inicio{
+  text-align: right;
+  width: 100%;
+  font-size: 72px;
+  line-height: 1em;
+  font-weight: 900;
+
+  margin: 0;
+  padding: 0;
+  padding-top: 36px;
+}
+a{
+  text-decoration: none;
+}
+a:link{
+  color: #CCC;
+}
+a:visited{
+  color: #CCC;
+}
+a:hover{
+  color: #666;
+}
+a:active{
+  color: #6C3;
+}
